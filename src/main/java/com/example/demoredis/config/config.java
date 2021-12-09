@@ -19,7 +19,7 @@ public class config {
         RedisStandaloneConfiguration redisStandaloneConfiguration = new RedisStandaloneConfiguration(
                 "redis-13102.c11.us-east-1-3.ec2.cloud.redislabs.com", 13102);
 
-        redisStandaloneConfiguration.setPassword("jgSuWZ86Z034Vp8Z5LgnQB1ZAIIUQMIo");
+        redisStandaloneConfiguration.setPassword("***********");
 
         LettuceConnectionFactory lettuceConnectionFactory =
                 new LettuceConnectionFactory(redisStandaloneConfiguration);

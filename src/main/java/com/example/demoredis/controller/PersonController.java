@@ -33,7 +33,7 @@ public class PersonController {
         redisTemplate.opsForValue().set(key, person);
     }
 
-    @GetMapping("get_value")
+    @GetMapping("/get_value")
     public Person getValue(@RequestParam("id") long id) {
 
         String key = PERSON_KEY_PREFIX + id;
